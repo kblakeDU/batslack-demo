@@ -3,8 +3,8 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Pseudo-Slack</title>
-		<meta name="generator" content="Bootply" />
+		<title>BatSlack</title>
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
@@ -27,18 +27,18 @@
                
                 BATMAN INC.
                 <ul class="nav hidden-xs" id="lg-menu">
-                    <li class="active"><a href="#featured"><i class="glyphicon glyphicon-list-alt"></i> Main Cave</a></li>
+                    <li class="active"><img src="img/bat.png"></i> Main Cave</a></li>
                    
-                    <li><a href="#stories"><i class="glyphicon glyphicon-list"></i> Villains</a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-paperclip"></i> Sidekicks</a></li>
+                    <li><a href="#stories"><img src="img/bat.png"> Villains</a></li>
+                    <li><a href="#"><img src="img/bat.png"> Sidekicks</a></li>
                     
                     <hr>
                     
                 DIRECT MESSAGES                    
-                     <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Alfred</a></li>
-                     <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Robin</a></li>
-                     <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Oracle</a></li>
-                     <li><a href="#"><i class="glyphicon glyphicon-refresh"></i> Commissioner Gordon</a></li>
+                     <li><a href="#"><img src="img/bat.png"> Alfred</a></li>
+                     <li><a href="#"><img src="img/bat.png"> Robin</a></li>
+                     <li><a href="#"><img src="img/bat.png"> Oracle</a></li>
+                     <li><a href="#"><img src="img/bat.png"> Commissioner Gordon</a></li>
                       <hr>
                 </ul>
                 <ul class="list-unstyled hidden-xs" id="sidebar-footer">
@@ -47,13 +47,7 @@
                     </li>
                 </ul>
               
-              	<!-- tiny only nav-->
-              <ul class="nav visible-xs" id="xs-menu">
-                  	<li><a href="#featured" class="text-center"><i class="glyphicon glyphicon-list-alt"></i></a></li>
-                    <li><a href="#stories" class="text-center"><i class="glyphicon glyphicon-list"></i></a></li>
-                  	<li><a href="#" class="text-center"><i class="glyphicon glyphicon-paperclip"></i></a></li>
-                    <li><a href="#" class="text-center"><i class="glyphicon glyphicon-refresh"></i></a></li>
-                </ul>
+              
               
             </div>
             <!-- /sidebar -->
@@ -74,13 +68,14 @@
                   	</div>
                   	<nav class="collapse navbar-collapse" role="navigation">
                     <form class="navbar-form navbar-left">
-                        <div class="input-group input-group-sm" style="max-width:360px;">
-                          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                        <div class="input-group input-group-sm"  id="topbar" style="max-width:360px;">
+                          <input  type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
                           <div class="input-group-btn">
                             <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                           </div>
                         </div>
                     </form>
+<!--
                     <ul class="nav navbar-nav">
                       <li>
                         <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a>
@@ -92,6 +87,7 @@
                         <a href="#"><span class="badge">badge</span></a>
                       </li>
                     </ul>
+-->
                     <ul class="nav navbar-nav navbar-right">
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
@@ -123,10 +119,12 @@
 <div class="row">
                            
                               <div class="well col-sm-12" style="height:600px;position:relative;">
-                                   <form class="form-horizontal col-sm-9" role="form" style="position:fixed;height:100px;bottom:60px;margin-left:-20px">
+                                 
+</div> 
+                                  <form class="form-horizontal col-sm-9" role="form" aria-describedby="basic-addon1"style="position:fixed;height:100px;bottom:60px;margin-left:-20px">
                                     <h4>Batbot</h4>
                                      <div class="form-group" style="padding:14px;">
-                                      <textarea class="form-control" placeholder="Update your status"></textarea>
+                                      <textarea class="form-control" placeholder="Update your status                                                                                                                                                                                 :)"></textarea>
                                     </div>
                                   </form>
                                   <div ></div>

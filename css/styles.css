@@ -169,7 +169,11 @@ h1,h2,h3 {
     text-shadow:0 0 1px rgba(0,0,0,.3);
 }
 .form-control {
-	
+    
+} 
+
+#topbar {
+	margin-left: 678px;
 }
 
 .panel textarea, .well textarea, textarea.form-control
